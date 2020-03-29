@@ -19,7 +19,7 @@ public class OtherParam {
 
     public static void main(String[] args) {
         for (int i = 0; i < 10; i++) {
-//            System.out.println(new Test1().getOtherParam());
+            System.out.println(new OtherParam().getOtherParam());
         }
     }
 
