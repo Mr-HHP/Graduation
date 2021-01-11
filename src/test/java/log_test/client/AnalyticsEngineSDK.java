@@ -18,7 +18,7 @@ public class AnalyticsEngineSDK {
     private static final Logger log = Logger.getGlobal();
     // 请求url的主体部分
 //	public static final String accessUrl = "http://node2/log.gif";
-    public static final String accessUrl = "http://10.0.4.28";
+    public static final String accessUrl = "http://130.60.40.288";
     private static final String platformName = "java_server";
     private static final String sdkName = "jdk";
     private static final String version = "1";
