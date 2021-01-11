@@ -38,7 +38,7 @@ object SparkStatFormatJob {
     )
 
     def init(): RDD[String] = {
-        val inputFile: String = "file:///C:\\Users\\Hypers\\Desktop\\毕设\\test_data"
+        val inputFile: String = "file:///C:\\Users\\\\Desktop\\毕设\\test_data"
         // 创建Spark Session对象，并设置app名字，设置运行模式，测试阶段使用local模式运行
         lazy val spark = SparkSession.builder().appName("etl_format_job").master("local[*]").getOrCreate()
         spark.sparkContext.textFile(inputFile)
